@@ -1,0 +1,37 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div style="text-align:center">
+                <h1>
+                    Welcome to {{ title }}!
+                </h1>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <filter-dropdown [families]="animalFamilies" (familySelected)="filterAnimalsPerFamily($event)"></filter-dropdown>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 mr-2 mb-2" *ngFor="let animal of filteredAnimals">
+            <app-card [name]="animal.name" [title]="animal.family" [text]="animal.description" [image]="'./assets/'+animal.name +'.jpg'"></app-card>
+        </div>
+    </div>
+</div>
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,68 @@
+{
+  "animals": [
+
+    {
+      "name": "tiger",
+      "family": "feline",
+      "description": "mainly asian"
+
+    },
+
+    {
+      "name": "turtle",
+      "family": "reptile",
+      "description": "Can't run, but sure can hide. This animal is very slow"
+
+    },
+
+    {
+      "name": "dog",
+      "family": "mammal",
+      "description": "omnivore. Best friend"
+
+    },
+
+    {
+      "name": "cat",
+      "family": "mammal",
+      "description": "feline pet"
+    },
+
+    {
+      "name": "ant",
+      "family": "insect",
+      "description": "There are many different species of this insect around the world. They can be brown, red and black. They live in soil and cavities in wood and plants"
+    },
+
+    {
+      "name": "cow",
+      "family": "mammal",
+      "description": "Its stomach contains four separate compartments. Their flautulence is responsible for a lot of the greenhouse gases. Their milk is very popular among human populations"
+    },
+
+    {
+      "name": "crocodile",
+      "family": "reptile",
+      "description": "It eats fish, turtle and mammals. Lives solitarily in murky, warm and quiet waters. This reptile was around in times of the dinousaurs"
+
+    },
+
+    {
+      "name": "eagle",
+      "family": "bird",
+      "description": "There are many different species of this animal, almost everywhere in the world, often omnivore"
+    },
+
+    {
+      "name": "pig",
+      "family": "mammal",
+      "description": "Loves belly scratches. It's one of the smartest animals on Earth, equivalent to a 3 year old child"
+    },
+
+    {
+      "name": "flea",
+      "family": "insect",
+      "description": "there used to be circuses where they acted, cats and dogs are like 24/7 buses for these tiny tiny creatures"
+    }
+  ]
+}
